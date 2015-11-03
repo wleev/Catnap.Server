@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Catnap.Server.Tests.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Catnap.Server.Tests"
+    RequestedTheme="Light">
+
+</Application>
