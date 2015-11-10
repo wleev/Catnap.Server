@@ -125,7 +125,7 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FringeServer\Catnap.Server.csproj">
+    <ProjectReference Include="..\Catnap.Server\Catnap.Server.csproj">
       <Project>{1ed5f504-dbe7-45fe-a968-f3f71b26b67e}</Project>
       <Name>Catnap.Server</Name>
     </ProjectReference>
@@ -137,7 +137,7 @@
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
