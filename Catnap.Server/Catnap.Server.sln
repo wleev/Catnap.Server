@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap.Server", "..\IoTDiscovery\FringeServer\Catnap.Server.csproj", "{1ED5F504-DBE7-45FE-A968-F3F71B26B67E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap.Server", ".\Catnap.Server\Catnap.Server.csproj", "{1ED5F504-DBE7-45FE-A968-F3F71B26B67E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap.Server.Tests", "..\IoTDiscovery\Catnap.Server.Tests\Catnap.Server.Tests.csproj", "{4E4B10D5-66A7-4EA9-9D98-637C653379AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap.Server.Tests", ".\Catnap.Server.Tests\Catnap.Server.Tests.csproj", "{4E4B10D5-66A7-4EA9-9D98-637C653379AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
