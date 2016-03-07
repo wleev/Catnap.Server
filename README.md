@@ -1,4 +1,4 @@
-# Catnap.Server
+# Catnap.Server ![Build status](https://ci.appveyor.com/api/projects/status/github/wleev/Catnap.Server?svg=true)
 Lightweight REST server built with Windows 10 IOT Core in mind. Configuration created to resemble MVC and WebAPI attribute based configuration.
 
 ## Example
