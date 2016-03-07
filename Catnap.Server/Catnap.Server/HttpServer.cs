@@ -86,12 +86,10 @@ namespace Catnap.Server
 
         private static async Task WriteResponse(HttpResponse response, StreamSocket socket)
         {
-            using (var output = socket.OutputStream)
+            var output = socket.OutputStream;
+            using (var stream = output.AsStreamForWrite())
             {
-                using (var stream = output.AsStreamForWrite())
-                {
-                    await response.WriteToStream(stream);
-                }
+                await response.WriteToStream(stream);
             }
         }
 
