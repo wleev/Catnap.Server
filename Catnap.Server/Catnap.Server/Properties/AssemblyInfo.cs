@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Catnap.Server")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A lightweight and easy configurable REST server to be used in conjunction with Windows 10 (UWP).")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Catnap.Server")]
@@ -26,3 +26,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.1.*")]
 [assembly: ComVisible(false)]
+[assembly: AssemblyFileVersion("1.1.*")]
